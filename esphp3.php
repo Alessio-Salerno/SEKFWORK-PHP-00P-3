@@ -39,7 +39,7 @@ class ColdBlood extends Vertebrato{
         $this->printColdBlood();
     }
 
-  public function printColdBlood(){
+  protected function printColdBlood(){
     echo "Sono un animale a sangue freddo \n";
   }
 
@@ -52,7 +52,7 @@ class Mamal extends WarmBlood{
         $this->printMamal();
     }
 
-    public function printMamal(){
+    protected function printMamal(){
         echo "Sono un mammifero \n";
     }
 
@@ -66,7 +66,7 @@ class Bird extends WarmBlood{
         $this->printBird();
     }
 
- public function printBird(){
+ protected function printBird(){
     echo "Sono un volatile \n";
  }
 
